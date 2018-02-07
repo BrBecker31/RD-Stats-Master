@@ -1,2 +1,43 @@
-# RD-Stats-Master
-Roller derby stats tracking application
+# Stats Master App
+## Contributors:
+- ### Bryan Becker
+- ### Abby Johnson
+- ### Kimberly Kruel
+- ### Tyler Mitchell
+
+# See a live version of this site at https://peaceful-spire-97933.herokuapp.com/
+
+## Visitors to the Heroku deployed website can access the full site by using the below credentials for the login page:
+### Username: testing
+### Password: 123asd!@#ASD
+
+
+
+## Premise:
+### This app's ambition is to ultimately be built out to record stats for various sports.  If one has a weekly soccer game or is coaching a little league football team, this web app will provide the means to track team and player stats from game to game across a season. 
+
+### To begin with, we've built the first leg around Roller Derby.  Our own [Abby Johnson](http://www.arizonaderbydames.com/abby-arsenic) is a leader in the local [Arizona Derby Dames league](http://www.arizonaderbydames.com/).  To learn a little about how a roller derby match is carried out, check out [this video](https://www.youtube.com/watch?v=OTpo6M5iynI).
+
+## Tech used
+### This app is built in JavaScript both in the front and back.  Here is a pretty comprehensive list of what is being included in our app:
+### 1. Node.js
+### 2. Express
+### 3. Sequelize (using MySQL dialect)
+### 4. Handlebars
+### 5. jQuery
+### 6. Parallax
+### 7. Particle.js
+### 8. Various NPM packages include: 
+	- bcrypt
+	- passport
+	- connect-flash
+
+## Initial table data population order
+### If building out the app locally, we've provided seed data to get you started.  you'll need to seed in this order: 
+### 1. Teams
+### 2. Skaters
+### 3. Bouts
+### 4. Jams
+### 5. Penalty Codes
+### 6. Penalties
+
